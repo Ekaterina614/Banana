@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+    display: flex;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 42px;
+}
+
+.button_search {
+    background-color: #222222;
+    border: 1px solid transparent;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-between;
+}
+
+.man {
+    background-image: url(img/Background.png);
+    height: 764px;
+}
+
+.container_man {
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.strip {
+    border: 1px solid transparent;
+    background-color: #F16D7F;
+    width: 12px;
+    height: 92px;
+    margin-left: 63.42px;
+    margin-top: 290px;
+}
+
+.text_top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 290px;
+    margin-left: 16px;
+}
+
+.h1_top {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    color: #222222;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #222222;
+ 
+}
+
+.fashion {
+    color: #F16D7F;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0 30px;
+}
+
+.for_woman {
+    background-image: url(img/woman.jpg);
+    width: 360px;
+    height: 260px;
+}
+
+.for_man {
+    width: 360px;
+    height: 260px;
+    background-image: url(img/man.jpg);
+}
+
+.for_kids {
+    width: 360px;
+    height: 260px;
+    background-image: url(img/kids.jpg);
+}
+
+.accesories {
+    width: 1140px;
+    height: 180px;
+    background-image: url(img/ACCESORIES.jpg);
+}
+
+.text_content {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 105px;
+}
+
+.p4 {
+    margin-top: 65px;
+}
+
+.h4_content {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #F16D7F;
+}
